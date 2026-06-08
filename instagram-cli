@@ -1,0 +1,16 @@
+#!/bin/bash
+# Instagram CLI Executive Wrapper Script
+
+# Get the directory where the script is located
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Check if the virtual environment exists
+if [ ! -d "$DIR/venv" ]; then
+    echo "Error: Virtual environment not found in $DIR/venv"
+    echo "Please set it up by running: python3 -m venv venv && ./venv/bin/pip install -r requirements.txt"
+    exit 1
+fi
+
+# Run the CLI using the virtual environment python interpreter
+# This ensures all dependencies are loaded correctly
+PYTHONPATH="$DIR" exec "$DIR/venv/bin/python3" -m src.cli "$@"

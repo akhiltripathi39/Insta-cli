@@ -1,0 +1,9 @@
+instagrapi==2.8.13
+rich==15.0.0
+questionary==2.1.1
+requests==2.34.2
+pillow==12.2.0
+pycryptodomex==3.23.0
+pydantic==2.13.4
+urllib3==2.7.0
+PySocks==1.7.1

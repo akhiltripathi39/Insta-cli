@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local session files containing login cookies/secrets
+session.json
+*session.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
