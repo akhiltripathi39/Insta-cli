@@ -4,7 +4,7 @@ A beautiful, functional, and robust Command Line Interface (CLI) and Terminal Us
 
 ## Screenshot
 
-![Instagram CLI TUI](insta-cliz.png)
+![Instagram CLI TUI](insta-cli.png)
 
 ---
 
